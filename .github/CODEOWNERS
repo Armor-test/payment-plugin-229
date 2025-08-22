@@ -1,0 +1,38 @@
+# CODEOWNERS file for payment-plugin-229
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/dept-ui @Armor-test/team-logging
+
+# Directory ownership
+/docs/ @Armor-test/team-security @Armor-test/grp-integration @Armor-test/squad-qa
+/deploy/ @Armor-test/dept-test @Armor-test/squad-reporting @Armor-test/dept-notifications
+/spec/ @Armor-test/squad-cache @Armor-test/grp-ui
+/public/ @Armor-test/grp-reporting @Armor-test/squad-tooling
+/static/ @Armor-test/squad-performance @Armor-test/grp-integration
+/middleware/ @Armor-test/dept-security @Armor-test/team-reporting @Armor-test/team-notifications
+/test/ @Armor-test/dept-security @Armor-test/squad-frontend
+/assets/ @Armor-test/team-governance @Armor-test/team-logging
+/app/ @Armor-test/squad-cache @Armor-test/unit-governance
+/examples/ @Armor-test/dept-data @Armor-test/unit-design @Armor-test/dept-notifications
+/config/ @Armor-test/unit-test @Armor-test/dept-reliability
+/views/ @Armor-test/team-security @Armor-test/squad-database @Armor-test/grp-reporting
+/pages/ @Armor-test/dept-automation @Armor-test/team-research @Armor-test/dept-ui
+/security/ @Armor-test/squad-apps @Armor-test/squad-api @Armor-test/squad-payments
+
+# File type ownership
+*.go @Armor-test/squad-ml @Armor-test/grp-ui @Armor-test/squad-tooling
+*.graphql @Armor-test/dept-security @Armor-test/dept-identity @Armor-test/team-security
+*.rs @Armor-test/squad-database @Armor-test/team-research
+*.jsx @Armor-test/team-notifications @Armor-test/squad-database
+*.html @Armor-test/squad-product @Armor-test/dept-security @Armor-test/dept-reliability
+*.lock @Armor-test/unit-test @Armor-test/squad-product
+*.h @Armor-test/dept-security @Armor-test/grp-storage
+*.gradle @Armor-test/dept-release @Armor-test/grp-api
+*.scala @Armor-test/dept-automation @Armor-test/dept-reliability
+*.py @Armor-test/squad-apps @Armor-test/grp-integration
+*.md @Armor-test/unit-test @Armor-test/team-research @Armor-test/unit-devops
+*.properties @Armor-test/squad-qa @Armor-test/squad-api @Armor-test/squad-cloud
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
